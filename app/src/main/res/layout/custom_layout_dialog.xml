@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="300dp"
+    android:minHeight="300dp">
+
+    <EditText
+        android:id="@+id/et_name_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:hint="@string/et_name"/>
+
+    <Spinner
+        android:id="@+id/sp_star_dialog"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:entries="@array/stars"
+        android:background="@color/design_default_color_primary"/>
+
+    <EditText
+        android:id="@+id/et_achiv_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:hint="@string/et_achiv"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/et_number_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:hint="@string/et_number"
+        android:inputType="number"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_yes_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_yes_change"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_no_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="@string/btn_no_change"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

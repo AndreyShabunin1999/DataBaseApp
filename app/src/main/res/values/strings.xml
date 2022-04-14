@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DataBaseApp</string>
+    <string name="name_act">База данных гостиниц Санкт-Петербурга</string>
+    <string name="et_name">Введите наименование гостинцы</string>
+    <string name="et_achiv">Введите оценку по отзывам</string>
+    <string name="et_number">Введите число номеров</string>
+    <string name="et_find">Введите для поиска...</string>
+    <string name="btn_add">Добавить</string>
+    <string name="btn_view">Просмотр</string>
+    <string name="card_tvName">Наименование: </string>
+    <string name="card_tvStars">Количество звезд: </string>
+    <string name="card_tvEstimation">Оценка по отзывам: </string>
+    <string name="card_tvNumber">Число номеров: </string>
+    <string name="btn_del">Удалить</string>
+    <string name="btn_change">Изменить</string>
+    <string name="btn_zapros2">Запрос №2</string>
+    <string name="btn_zapros3">Запрос №3</string>
+    <string name="btn_zapros4">Запрос №4</string>
+    <string name="btn_zapros1">Запрос №1</string>
+    <string name="btn_yes_change">Сохранить изменения</string>
+    <string name="btn_no_change">Отмена</string>
+
+    <string-array name="stars">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>
